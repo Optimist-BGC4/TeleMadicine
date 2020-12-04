@@ -1,0 +1,57 @@
+@import "bootstrap.min.css";
+@import "all.min.css";
+@import "darkTheme.css";
+body{
+    margin-top: 70px;
+}
+/*CAROUSEL SECTION*/
+#myCarousel .img-fluid{
+    height: 450px;
+}
+#myCarousel .carousel-caption{
+    bottom: 150px;
+}
+
+/*FEEDBACK SECTION*/
+#feedback{
+    background-image: url("../images/feedbackSlider.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    margin-top: 50px;
+}
+
+/*FOOTER SECTION*/
+footer{
+    background-color: rgba(8, 8, 8, 0.9);
+}
+footer .container-fluid{
+    background-color: rgba(27, 27, 27, 0.94);
+}
+
+
+/*
+Responsive Css*/
+
+
+/* Small devices (landscape phones, 576px and less)*/
+@media (max-width: 576px) {
+    #pagination{
+        margin-left: 0;
+    }
+}
+
+/*Medium devices (tablets, 768px and less)*/
+@media (max-width: 768px) {
+    #pagination{
+        margin-left: 0;
+    }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    #pagination{
+        margin-left: 30rem;
+    }
+}
